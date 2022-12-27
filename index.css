@@ -1,0 +1,128 @@
+html {
+    height: 100vh;
+    font-family: staatliches;
+}
+
+body {
+    padding: 10px;
+    background-color: #80DC33;
+}
+
+body:hover {
+    background-color: #57357C;
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    border: dotted 5px #FB67FE;
+    font-size: 45px;
+}
+
+#emoji-container span:hover {
+    border: dotted 5px #80DC33;
+}
+
+#push-btn, #unshift-btn {
+    display: box;
+    margin-top: 30px;
+    color: antiquewhite;
+    background-color: #F968FD;
+}
+
+#push-btn:hover {
+     background-color: #80DC33;      
+}
+
+#unshift-btn:hover {
+     background-color: #80DC33;      
+}
+
+#shift-btn,#pop-btn {
+    background-color: #3E0264;
+}
+
+#pop-btn:hover {
+    background-color: #FE0097;
+    color: antiquewhite;
+}
+
+#shift-btn:hover {
+    background-color: #FE0097;
+    color: antiquewhite;
+}
+
+#funniest-btn, #cutest-btn {
+    background-color: #F968FD;
+    color: antiquewhite;      
+}
+
+#funniest-btn:hover {
+    background-color: #80DC33;    
+}
+
+#cutest-btn:hover {
+    background-color: #80DC33;     
+}
+
+#load1-btn, #load2-btn {
+    background-color: #3E0264; 
+}
+
+#load1-btn:hover {
+    background-color: #FE0097;
+    color: antiquewhite; 
+}
+
+#load2-btn:hover {
+    background-color: #FE0097;
+    color: antiquewhite; 
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FE0097;
+    font-size: 55px;  
+}
+
+h1:hover {
+    color: #80DC33
+}
+
+input {
+    margin: auto;
+    margin-top: 0 auto;
+    display: block;
+    border: 5px solid #FE0097;
+    height: 60px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    color: #80D87F;
+}
+
+input:hover{
+    border: 5px solid #80DC33;
+}
+
+button {
+    font-family: Baloo;
+    color: #F05DF9;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 7px;
+    height: 40px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0;
+}
+
